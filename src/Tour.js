@@ -16,3 +16,12 @@ const Tour = ({ id, image, info, name, price, removeTour }) => {
             {readMore ? 'show less' : '  read more'}
           </button>
         </p>
+        <button className="delete-btn" onClick={() => removeTour(id)}>
+          not interested
+        </button>
+      </footer>
+    </article>
+  );
+};
+
+export default Tour;
