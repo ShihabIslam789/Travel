@@ -139,3 +139,5 @@ main {
   max-width: var(--fixed-width);
   margin: 5rem auto;
 }
+.loading {
+  text-align: center;
