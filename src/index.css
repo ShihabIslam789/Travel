@@ -153,4 +153,11 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+.single-tour {
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  margin: 2rem 0;
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+}
 
